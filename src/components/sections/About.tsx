@@ -19,34 +19,41 @@ export function About({ profile }: AboutProps) {
             About
           </p>
           <h2 className="text-2xl md:text-3xl font-medium text-[var(--color-text-primary)]">
-            Engineer by training. Developer by practice.
+            The full package.
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 text-[var(--color-text-body)] leading-relaxed">
           <div className="flex flex-col gap-4">
             <p>
-              I started in aerospace — studied the discipline, grew up around my
-              father&apos;s machine shop, and came to understand systems from the
-              ground up. The same precision that goes into designing an aircraft
-              structure is what I bring to software architecture.
+              I grew up in a machine shop. My father ran one, and I spent years
+              learning how manufactured things actually come together — not from
+              a textbook, but from watching metal get cut, inspected, rejected,
+              and reworked. That experience shaped how I think about systems
+              before I ever wrote a line of code.
             </p>
             <p>
-              Over time I taught myself to code, and eventually that became the
-              primary way I contribute. Today I lead development on enterprise
-              systems at Boeing, building the data infrastructure that connects
-              shop floors to decision-makers.
+              I studied aerospace engineering because I wanted to understand the
+              design side. Then I taught myself to program because the tools
+              available to engineers weren&apos;t good enough and I decided to
+              build better ones. No CS degree. No bootcamp. Just hard problems
+              and a refusal to stop until they were solved.
             </p>
           </div>
           <div className="flex flex-col gap-4">
             <p>
-              My work sits at the intersection of hardware and software — IIoT
-              systems, real-time data pipelines, 3D visualizations of physical
-              spaces. I care about building things that are correct, maintainable,
-              and actually useful to the people who depend on them.
+              That path means I carry context that most developers don&apos;t
+              have. I understand what a maintenance technician needs on the floor,
+              what a program manager needs in a briefing, and what a CTO needs to
+              see to trust a system. I&apos;ve built for all of them — and I&apos;ve
+              had to defend those decisions at every level.
             </p>
             <p>
-              Based in {profile.location}. Currently at {profile.company}.
+              I&apos;ve proven out robust systems across dozens of languages and
+              stacks, without formal training in any of them. I&apos;m now the lead
+              developer on enterprise-level programs at {profile.company} with
+              visibility at the executive level. The work is watched closely.
+              I build accordingly.
             </p>
           </div>
         </div>

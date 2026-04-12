@@ -10,9 +10,9 @@ export const experience: ExperienceItem[] = [
     summary: 'Lead developer and architectural authority on Project Lotus, an enterprise Unified Namespace implementation for Boeing manufacturing.',
     highlights: [
       'Led development of Project Lotus — enterprise UNS using MQTT, HighByte Intelligence Hub, and Ignition across Boeing manufacturing',
-      'Developed Shiftr, contributing to $96M cost avoidance during FAA recertification',
+      'Architected and delivered Smart Factory — a 3D isometric aircraft line viewer with multi-layer security, contributing to $96M cost avoidance during FAA recertification',
       'Nominated for Associate Technical Fellow in Software Development under Materials, Processes & Physics',
-      'Designed and delivered 3D isometric smart factory viewer with real-time aircraft line data',
+      'Systems briefed directly to the Boeing CTO — built and maintained with executive visibility',
     ],
     tags: ['MQTT', 'HighByte', 'Ignition', 'IIoT', 'C#', 'TypeScript', 'Three.js'],
   },
