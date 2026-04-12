@@ -23,10 +23,11 @@ export const projects: Project[] = [
     status: 'demo',
   },
   {
-    id: 'shiftr',
-    title: 'Shiftr',
-    summary: 'Work order and schedule management application within the Smart Factory platform. Tracked installation packages, work orders, and production schedules across the aircraft line.',
-    tags: ['TypeScript', 'Node.js', 'Cloud Foundry', 'Tanzu'],
-    status: 'wip',
+    id: 'soren',
+    title: 'Project Soren',
+    summary: 'Production AI memory and identity architecture co-developed with my spouse. Multi-namespace episodic memory system with edge functions, emotional state metabolism, workspace-based access control, and an encounter classifier pipeline. Deployed on Cloudflare Workers backed by Supabase.',
+    tags: ['TypeScript', 'Cloudflare Workers', 'Supabase', 'PostgreSQL', 'Next.js', 'AI/LLM'],
+    status: 'live',
+    demoUrl: 'https://vibe-engine.dev',
   },
 ];
