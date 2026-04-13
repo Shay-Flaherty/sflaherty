@@ -19,41 +19,50 @@ export function About({ profile }: AboutProps) {
             About
           </p>
           <h2 className="text-2xl md:text-3xl font-medium text-[var(--color-text-primary)]">
-            The full package.
+            From the shop floor to the server room.
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 text-[var(--color-text-body)] leading-relaxed">
           <div className="flex flex-col gap-4">
             <p>
-              I grew up in a machine shop. My father ran one, and I spent years
-              learning how manufactured things actually come together — not from
-              a textbook, but from watching metal get cut, inspected, rejected,
-              and reworked. That experience shaped how I think about systems
-              before I ever wrote a line of code.
+              My father ran a machine shop, and by fourteen I wasn&apos;t just
+              watching — I was writing the CNC programs, modifying G-code, running
+              the machines, grinding burrs, and driving shipments. That hands-on
+              foundation gave me something most engineers and most developers
+              never get: an instinct for how physical systems actually behave
+              when they leave the drawing.
             </p>
             <p>
-              I studied aerospace engineering because I wanted to understand the
-              design side. Then I taught myself to program because the tools
-              available to engineers weren&apos;t good enough and I decided to
-              build better ones. No CS degree. No bootcamp. Just hard problems
-              and a refusal to stop until they were solved.
+              I studied aerospace engineering out of genuine fascination with
+              things that fly. Coding came later, initially out of necessity —
+              the kind of analysis work I was doing demanded automation or it
+              simply couldn&apos;t be done at scale. So I taught myself to code
+              and my eyes instantly opened to the possibilities. The
+              inefficiencies around me became impossible to ignore — hand-written
+              plans, redundant processes, engineers doing by hand what a
+              well-placed script could do in seconds. I started fixing those
+              problems one at a time: MATLAB, then VBA, then web applications,
+              then enterprise platforms.
             </p>
           </div>
           <div className="flex flex-col gap-4">
             <p>
-              That path means I carry context that most developers don&apos;t
-              have. I understand what a maintenance technician needs on the floor,
-              what a program manager needs in a briefing, and what a CTO needs to
-              see to trust a system. I&apos;ve built for all of them — and I&apos;ve
-              had to defend those decisions at every level.
+              Eventually my manager recognized what was happening and moved me
+              into pure software development. That transition wasn&apos;t a departure
+              from engineering — it was an extension of it. The same instinct
+              that drove me to automate a structural analysis pipeline drove me
+              to architect a Unified Namespace for a manufacturing floor.
+              The domain changes. The approach doesn&apos;t.
             </p>
             <p>
-              I&apos;ve proven out robust systems across dozens of languages and
-              stacks, without formal training in any of them. I&apos;m now the lead
-              developer on enterprise-level programs at {profile.company} with
-              visibility at the executive level. The work is watched closely.
-              I build accordingly.
+              I understand what a technician needs on the floor, what a program
+              manager needs in a briefing, and what an executive needs to trust
+              a system. I&apos;ve built for all of them — and while I&apos;ve made
+              mistakes and learned from them along the way, I believe in the
+              products I&apos;ve built and would stand behind them at any level.
+              No formal CS training. Dozens of languages and stacks.
+              Currently leading enterprise development at {profile.company}.
             </p>
           </div>
         </div>
